@@ -1,0 +1,8 @@
+## Just before using This python program you havr to do 2 steps
+
+1) install pyperclip with pip ( just open cmd and type following)
+
+pip install pyperclip
+
+2) add the path that you put these two file to your environment variable
+
