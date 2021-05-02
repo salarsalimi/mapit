@@ -1,0 +1,14 @@
+##   first use pip3 to install pyperclip module as bellow
+
+pip3 install pyperclip
+
+## if you get Error that says “Pyperclip could not find a copy/paste mechanism for your system ..." Just install 'xsel' or 'xclip'  
+# for example if you on fedora just enter bellow
+
+sudo dnf install xclip
+
+
+## To use it as a normal command in Linux just add it to your envirment variable and dont forget to make it Executable
+
+chmod +x mapit.py
+PATH=PATH:~/bin   ---- >  This is where you put mapit.py
